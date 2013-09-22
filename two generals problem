@@ -1,0 +1,21 @@
+msg1 a -> b
+if a doesn't hear back from b, a won't attack
+   msg2 b -> a
+b depends on msg2 -> a should confirm b
+   msg3 a->b
+
+
+a --confirm1-- b
+b --confirm2-- a for confirm1
+a --confirm3-- b for confirm2
+...
+
+sender is always not sure. receiver must confirm back. recursively.
+
+
+
+
+
+
+
+
