@@ -1,0 +1,9 @@
+machines agree on something:
+	 value, list<action>
+make machine set act as one machine
+
+distributed databases!
+
+termination: doesn't halt
+agreement: all agrees on one
+validity: final decision is proposed (not trivial value)

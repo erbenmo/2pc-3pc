@@ -1,0 +1,20 @@
+binary decision. why?
+
+2pc:
+agreement: coordinator made the decision
+validity: decision is not trivial
+termination: no loop
+
+
+crash & failur!!
+phase1 + coordinator:
+
+**coordinator crashed. participants are blocked, waiting for 'coordinator' to start phase 2
+very bad.
+
+both coordinator and one participant failed:
+     is failed participant 1 or 0? 2nd coordinator doesn't know.
+
+
+
+     
