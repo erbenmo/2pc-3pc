@@ -1,0 +1,18 @@
+problem with 2pc:
+if coordinator and one participant crashed:
+   origin value of participant unknown -> can't decide & commit
+   that participant might have commited already -> can't abort.
+!!!
+
+non-transparent information & immature commit -> can't recover
+
+:broadcast the final decision before any commit.
+
+
+problem left: multiple coordinator caused by network partition
+
+
+
+
+
+     
