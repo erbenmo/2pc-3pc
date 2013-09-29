@@ -1,0 +1,3 @@
+in db: coordinator ask participants to do some thing in memory, write log, acquire locks. participant returns done/fail   -> accept db changes
+
+in decision: coordinator suggests value. participant returns can agree / fail to agree 	  -> accept a value
