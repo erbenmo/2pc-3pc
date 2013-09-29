@@ -1,0 +1,7 @@
+always wants 1
+0 means error
+
+coordinator asks participants 1?
+participants collect resources, return 1 if no error
+coordinator collect response, make decision, broadcast decisions
+participants commit
