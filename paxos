@@ -1,0 +1,3 @@
+paxos:
+ordering of proposal
+majority commit done -> protocol ends

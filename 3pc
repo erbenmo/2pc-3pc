@@ -1,6 +1,7 @@
 problem with 2pc:
 if coordinator and one participant crashed:
    origin value of participant unknown -> can't decide & commit
+   	  -> have to wait for the failed participant to recover!!!
    that participant might have commited already -> can't abort.
 !!!
 
